@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:host_group_chat/features/presentation/pages/login_page.dart';
+import 'package:host_group_chat/on_generate_routes.dart';
 
 void main() => runApp(MyApp());
 
@@ -7,16 +9,16 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Group Chat',
-      home: Scaffold(
-        appBar: AppBar(
-          title: const Text('Material App Bar'),
-        ),
-        body: Center(
-          child: Container(
-            child: const Text('Hello World'),
-          ),
-        ),
+      theme: ThemeData(
+        primaryColor: Colors.green,
       ),
+      onGenerateRoute: OnGenerateRoute.route,
+      initialRoute: "/",
+      routes: {
+        "/":(context){
+          return const LoginPage();
+        }
+      },
     );
   }
 }

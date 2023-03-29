@@ -2,7 +2,7 @@
 
 A flutter group chat app using clean code architecture.
 
-### Packages we are using:
+### Packages I am using:
 
 
 [flutter_bloc :](https://pub.dev/packages/flutter_bloc)  Widgets that make it easy to integrate blocs and cubits into [Flutter](https://flutter.dev/). Built to work with [package:bloc](https://pub.dev/packages/bloc). The Bloc library provides very good 🦄 tooling and compared to other state management solutions that use Streams, it's a pure gem.

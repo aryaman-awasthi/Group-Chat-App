@@ -1,6 +1,6 @@
-# host_group_chat
+# Group Chat App
 
-A new Flutter project.
+A flutter group chat app using clean code architecture.
 
 ## Getting Started
 

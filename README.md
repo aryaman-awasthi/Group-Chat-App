@@ -31,9 +31,3 @@ font_awesome_flutter:- [Link:](https://pub.dev/packages/font_awesome_flutter)
 [firebase_auth :](https://pub.dev/packages/firebase_auth) Firebase Authentication aims to make building secure authentication systems easy, while improving the sign-in and onboarding experience for end users. It provides an end-to-end identity solution, supporting email and password accounts, phone auth, and Google, Twitter, Facebook, and GitHub login, and more.
 
 
-
-### # The Clean Architecture [proposed by our friendly Uncle Bob](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html)
-
-<p float="left">
-  <img src="https://user-images.githubusercontent.com/10207753/93004894-e8d48d00-f564-11ea-9f34-8614c783e98a.jpg" height="400" />
-</p>
